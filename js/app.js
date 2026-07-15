@@ -2,13 +2,13 @@ const $ = (selector) => document.querySelector(selector);
 const products = [
   {
     name: "Dus Ka'bah Paket Hemat",
-    price: "Rp 150.000",
+    price: "Rp 6.266",
     image: "images/DUS KA'BAH PAKET HEMAT.jpeg",
     isDus: true,
     variants: [
       {
         name: "Dus Ka'bah + Candini",
-        price: "Rp 135.000",
+        price: "Rp 11.557",
         image: "images/DUS KA'BAH + CANDINI.jpeg",
       },
       {
@@ -18,25 +18,25 @@ const products = [
       },
       {
         name: "Dus Ka'bah + Pistachio",
-        price: "Rp 165.000",
+        price: "Rp 8.526",
         image: "images/DUS KA'BAH + PISTACHIO.jpeg",
       },
       {
         name: "Dus Ka'bah Paket Hemat",
-        price: "Rp 150.000",
+        price: "Rp 6.266",
         image: "images/DUS KA'BAH PAKET HEMAT.jpeg",
       },
     ],
   },
   {
     name: "Dus Kotak Hemat",
-    price: "Rp 135.000",
+    price: "Rp 6.266",
     image: "images/DUS KOTAK HEMAT.jpeg",
     isDus: true,
     variants: [
       {
         name: "Dus Kotak + Almond",
-        price: "Rp 120.000",
+        price: "Rp 8.246",
         image: "images/DUS KOTAK + ALMOND.jpeg",
       },
       {
@@ -46,12 +46,12 @@ const products = [
       },
       {
         name: "Dus Kotak + Pistachio",
-        price: "Rp 150.000",
+        price: "Rp 8.526",
         image: "images/DUS KOTAK + PISTACHIO.jpeg",
       },
       {
         name: "Dus Kotak Hemat",
-        price: "Rp 135.000",
+        price: "Rp 6.266",
         image: "images/DUS KOTAK HEMAT.jpeg",
       },
     ],
