@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Checkout | Arabian Snack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="checkout">
+    <main class="page" style="margin-top:30px">
+        <a class="back-link" href="cart.html">← Kembali ke keranjang</a>
+        <h1>Checkout</h1>
+        <div class="checkout-grid">
+            <section class="checkout-card card">
+                <h2>Alamat Pengiriman</h2><input placeholder="Nama lengkap"><input placeholder="Alamat lengkap">
+                <div class="two-col"><input placeholder="Kota"><input placeholder="Kode pos"></div>
+            </section>
+            <aside class="checkout-card card">
+                <h2>Ringkasan Pesanan</h2>
+                <p id="checkoutName"></p>
+                <p id="checkoutPrice" class="price"></p><a class="btn"
+                    style="display:block;text-align:center;margin-top:18px" href="payment.html">Pilih Pembayaran</a>
+            </aside>
+        </div>
+    </main>
+    <footer class="simple-footer">© 2026 Arabian Snack</footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
