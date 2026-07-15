@@ -445,6 +445,38 @@ input {
     padding: clamp(22px, 4vw, 42px)
 }
 
+.admin-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px
+}
+
+.menu-toggle {
+    display: none;
+    width: 42px;
+    height: 42px;
+    padding: 10px;
+    border: 1px solid var(--brown);
+    border-radius: 8px;
+    background: #fff;
+    cursor: pointer
+}
+
+.menu-toggle span {
+    display: block;
+    height: 2px;
+    margin: 4px 0;
+    background: var(--brown)
+}
+
+.sidebar-overlay {
+    display: none
+}
+
+.mobile-admin-bar {
+    display: none
+}
+
 .stats {
     grid-template-columns: repeat(4, 1fr)
 }
@@ -547,27 +579,80 @@ input {
     }
 
     .admin-layout {
-        grid-template-columns: 1fr
+        grid-template-columns: 1fr;
+        grid-template-rows: 64px minmax(0, 1fr);
+        align-content: start
     }
 
     .sidebar {
-        padding: 14px 16px
+        position: fixed;
+        z-index: 20;
+        inset: 0 auto 0 0;
+        width: min(78vw, 290px);
+        padding: 24px 18px;
+        transform: translateX(-105%);
+        transition: transform .25s ease;
+        box-shadow: 10px 0 28px rgba(0, 0, 0, .2)
+    }
+
+    .sidebar.open {
+        transform: translateX(0)
+    }
+
+    .mobile-admin-bar {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        height: 64px;
+        padding: 10px 16px;
+        background: #6b3e26;
+        color: #fff;
+        align-self: start
+    }
+
+    .mobile-admin-bar .brand {
+        color: #fff;
+        font-size: 1rem
+    }
+
+    .mobile-admin-bar .brand img {
+        width: 36px;
+        height: 36px
+    }
+
+    .mobile-admin-bar .menu-toggle {
+        display: block;
+        background: transparent;
+        border-color: #fff
+    }
+
+    .mobile-admin-bar .menu-toggle span {
+        background: #fff
+    }
+
+    .sidebar-overlay.show {
+        display: block;
+        position: fixed;
+        z-index: 15;
+        inset: 0;
+        border: 0;
+        background: rgba(0, 0, 0, .35)
     }
 
     .nav {
         display: grid;
-        grid-template-columns: repeat(4, minmax(0, 1fr));
+        grid-template-columns: 1fr;
         gap: 8px;
-        margin-top: 14px
+        margin-top: 24px
     }
 
     .nav a,
     .nav button {
         text-align: center;
-        font-size: .78rem;
+        font-size: 1rem;
         white-space: normal;
         min-width: 0;
-        padding: 10px 4px
+        padding: 12px
     }
 
     .stats {
@@ -581,6 +666,7 @@ input {
     .admin-main {
         overflow-x: hidden
     }
+
 
     .table-wrap {
         overflow-x: hidden
