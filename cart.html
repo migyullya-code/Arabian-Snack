@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Keranjang | Arabian Snack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="cart">
+    <main class="flow-card card">
+        <a class="back-link" href="index.html">← Kembali ke produk</a>
+        <h1>Keranjang Belanja</h1>
+        <div class="cart-item">
+            <img class="cart-image" id="cartImage" src="" alt="">
+            <div><b id="cartName"></b>
+                <p>Jumlah: 1</p>
+            </div>
+            <div id="cartPrice" class="cart-price"></div>
+        </div>
+        <section id="dusOptions" class="dus-options" hidden>
+            <h2>Pilih paket</h2>
+            <p>Stok tersedia: 9</p>
+            <div id="variantList" class="variant-list"></div>
+        </section>
+        <section class="quantity-box"><label>Jumlah</label><input type="number" min="1" max="9" value="1"></section><a
+            class="btn" style="display:block;text-align:center;margin-top:28px" href="checkout.html">Lanjut ke
+            Checkout</a>
+    </main>
+    <footer class="simple-footer">© 2026 Arabian Snack</footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
