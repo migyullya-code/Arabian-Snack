@@ -13,7 +13,8 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: var(--cream);
-    color: var(--dark)
+    color: var(--dark);
+    overflow-x: hidden
 }
 
 button,
@@ -542,83 +543,105 @@ input {
 
 @media(max-width:760px) {
     .product-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr)
     }
 
     .admin-layout {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr
     }
 
     .sidebar {
-        padding: 14px 16px;
+        padding: 14px 16px
     }
 
     .nav {
-        display: flex;
-        overflow-x: auto;
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 8px;
-        margin-top: 14px;
+        margin-top: 14px
     }
 
     .nav a,
     .nav button {
         text-align: center;
-        font-size: .9rem;
-        white-space: nowrap;
-        flex: 0 0 auto;
-        min-width: 112px;
+        font-size: .78rem;
+        white-space: normal;
+        min-width: 0;
+        padding: 10px 4px
     }
 
     .stats {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr)
     }
 
     .checkout-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr
+    }
+
+    .admin-main {
+        overflow-x: hidden
+    }
+
+    .table-wrap {
+        overflow-x: hidden
+    }
+
+    .table-wrap table {
+        min-width: 0;
+        width: 100%;
+        table-layout: fixed;
+        font-size: .75rem
+    }
+
+    .table-wrap th,
+    .table-wrap td {
+        padding: 9px 5px;
+        overflow-wrap: anywhere
     }
 }
 
 @media(max-width:440px) {
+
     .product-grid,
     .stats {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr
     }
 
     .cart-item {
         align-items: flex-start;
-        flex-wrap: wrap;
+        flex-wrap: wrap
     }
 
     .cart-price {
-        margin-left: 0;
+        margin-left: 0
     }
 
     .two-col {
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr
     }
 
     .site-footer {
         grid-template-columns: auto 1fr;
-        font-size: .85rem;
+        font-size: .85rem
     }
 
     .site-footer span {
-        grid-column: 1 / -1;
+        grid-column: 1 / -1
     }
 
     .contact {
         grid-column: 1 / -1;
         padding: 14px 0 0;
         border-left: 0;
-        border-top: 1px solid var(--line);
+        border-top: 1px solid var(--line)
     }
 
     .admin-main .topbar {
-        align-items: flex-start;
+        align-items: flex-start
     }
 
     .admin-main .topbar h1 {
         font-size: 1.8rem;
-        margin: 0;
+        margin: 0
     }
 }
