@@ -2,13 +2,13 @@ const $ = (selector) => document.querySelector(selector);
 const products = [
   {
     name: "Dus Ka'bah Paket Hemat",
-    price: "Rp 6.266",
+    price: "Rp 150.000",
     image: "images/DUS KA'BAH PAKET HEMAT.jpeg",
     isDus: true,
     variants: [
       {
         name: "Dus Ka'bah + Candini",
-        price: "Rp 11.557",
+        price: "Rp 135.000",
         image: "images/DUS KA'BAH + CANDINI.jpeg",
       },
       {
@@ -18,25 +18,25 @@ const products = [
       },
       {
         name: "Dus Ka'bah + Pistachio",
-        price: "Rp 8.526",
+        price: "Rp 165.000",
         image: "images/DUS KA'BAH + PISTACHIO.jpeg",
       },
       {
         name: "Dus Ka'bah Paket Hemat",
-        price: "Rp 6.266",
+        price: "Rp 150.000",
         image: "images/DUS KA'BAH PAKET HEMAT.jpeg",
       },
     ],
   },
   {
     name: "Dus Kotak Hemat",
-    price: "Rp 6.266",
+    price: "Rp 135.000",
     image: "images/DUS KOTAK HEMAT.jpeg",
     isDus: true,
     variants: [
       {
         name: "Dus Kotak + Almond",
-        price: "Rp 8.246",
+        price: "Rp 120.000",
         image: "images/DUS KOTAK + ALMOND.jpeg",
       },
       {
@@ -46,12 +46,12 @@ const products = [
       },
       {
         name: "Dus Kotak + Pistachio",
-        price: "Rp 8.526",
+        price: "Rp 150.000",
         image: "images/DUS KOTAK + PISTACHIO.jpeg",
       },
       {
         name: "Dus Kotak Hemat",
-        price: "Rp 6.266",
+        price: "Rp 135.000",
         image: "images/DUS KOTAK HEMAT.jpeg",
       },
     ],
@@ -208,6 +208,20 @@ function admin() {
     pesanan: ["Pesanan", "Pantau status pesanan pelanggan."],
     pengguna: ["Pengguna", "Daftar pengguna yang terdaftar."],
   };
+  const sidebar = document.querySelector(".sidebar"),
+    toggle = $("#menuToggle"),
+    overlay = $("#sidebarOverlay");
+  const closeMenu = () => {
+    sidebar.classList.remove("open");
+    overlay.classList.remove("show");
+    toggle.setAttribute("aria-expanded", "false");
+  };
+  toggle.onclick = () => {
+    const open = sidebar.classList.toggle("open");
+    overlay.classList.toggle("show", open);
+    toggle.setAttribute("aria-expanded", String(open));
+  };
+  overlay.onclick = closeMenu;
   document.querySelectorAll(".nav button").forEach(
     (button) =>
       (button.onclick = () => {
@@ -220,6 +234,7 @@ function admin() {
           .forEach((item) => (item.hidden = item.id !== panel));
         $("#adminTitle").textContent = labels[panel][0];
         $("#adminSubtitle").textContent = labels[panel][1];
+        closeMenu();
       }),
   );
 }
