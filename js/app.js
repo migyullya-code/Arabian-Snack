@@ -72,7 +72,7 @@ const getCart = () =>
   JSON.parse(localStorage.getItem("arabianSnackCart")) || products[0];
 function logout() {
   localStorage.removeItem("arabianSnackRole");
-  location.href = "login.html";
+  location.href = "index.html";
 }
 document.addEventListener("DOMContentLoaded", () => {
   const page = document.body.dataset.page;
@@ -128,12 +128,12 @@ function login() {
       return;
     }
     localStorage.setItem("arabianSnackRole", role);
-    location.href = role === "admin" ? "admin.html" : "index.html";
+    location.href = role === "admin" ? "admin.html" : "beranda.html";
   };
 }
 function shop() {
   if (localStorage.getItem("arabianSnackRole") !== "user") {
-    location.replace("login.html");
+    location.replace("index.html");
     return;
   }
   $("#products").innerHTML = products
@@ -217,7 +217,7 @@ function success() {
 
 function admin() {
   if (localStorage.getItem("arabianSnackRole") !== "admin") {
-    location.replace("login.html");
+    location.replace("index.html");
     return;
   }
   const labels = {
