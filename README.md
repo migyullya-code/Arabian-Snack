@@ -140,33 +140,37 @@ Data tersebut digunakan untuk menentukan produk unggulan, mengevaluasi kampanye 
 
 Dokumentasi tampilandikelompokkan berdasarkan perangkat dan jenis akses.
 
-## Dekstop
+## Dokumentasi Tampilan
 
 | Beranda | Katalog Produk |
 | --- | --- |
-| ![Beranda desktop hp](screenshot/beranda .jpeg) | ![Katalog desktop hp](screenshot/katalog.jpeg) |
-| ![Beranda desktop laptop](screenshot/beranda.jpeg) | 
+| ![Beranda desktop hp](screenshot/beranda%20.jpeg) | ![Katalog desktop hp](screenshot/katalog.jpeg) |
+| ![Beranda desktop laptop](screenshot/beranda.jpeg) |  |
 
 | Checkout | Dashboard Admin |
 | --- | --- |
-| ![Checkout desktop hp](screenshot/beranda checkout.jpeg) | ![Dashboard admin desktop hp](screenshot/dashboard admin.jpeg) |
-| ![Checkout desktop laptop](screenshot/beranda checkout.jpeg) | ![Dashboard admin dekstop](screenshot/dashboard admin.png) |
+| ![Checkout desktop hp](screenshot/beranda%20checkout.jpeg) | ![Dashboard admin desktop hp](screenshot/dashboard%20admin.jpeg) |
+| ![Checkout desktop laptop](screenshot/beranda%20checkout.jpeg) | ![Dashboard admin desktop](screenshot/dashboard%20admin.png) |
 
-| Metode pembayaran | Produk Admin |
-| ![Metode pembayaran dekstop hp](screenshot/Pembayaran.jpeg) | ![Produk admin dekstop hp](screenshot/produk admin.jpeg) |
-| ![Metode pembayaran dekstop laptop](screenshot/pembayaran.png) | ![Produk admin dekstop laptop](screenshot/produk admin.png) |
+| Metode Pembayaran | Produk Admin |
+| --- | --- |
+| ![Metode pembayaran desktop hp](screenshot/Pembayaran.jpeg) | ![Produk admin desktop hp](screenshot/produk%20admin.jpeg) |
+| ![Metode pembayaran desktop laptop](screenshot/pembayaran.png) | ![Produk admin desktop laptop](screenshot/produk%20admin.png) |
 
 | Pesanan Admin | Pengguna Admin |
-|![Pesanan admin dekstop hp](screenshot/pesanan admin.jpeg) | ![Pengguna admin dekstop hp](screenshot/pengguna.jpeg) |
-|![Pesanan admin dekstop laptop](screenshot/pesanan admin.png) | ![Pengguna admin dekstop laptop](screenshot/pengguna .jpeg) |
+| --- | --- |
+| ![Pesanan admin desktop hp](screenshot/pesanan%20admin.jpeg) | ![Pengguna admin desktop hp](screenshot/pengguna.jpeg) |
+| ![Pesanan admin desktop laptop](screenshot/pesanan%20admin.png) | ![Pengguna admin desktop laptop](screenshot/pengguna%20.jpeg) |
 
 | Pembayaran Sukses | Keranjang |
-|![Pembayaran sukses hp](screenshot/pembayaran sukses.jpeg) | ![Keranjang dekstop hp](screenshot/keranjang.jpeg) |
-|[Pembayaran sukses laptop](screenshot/pembayaran sukses.png) | ![keranjang dekstop laptop](screenshot/keranjang.png) |
+| --- | --- |
+| ![Pembayaran sukses hp](screenshot/pembayaran%20sukses.jpeg) | ![Keranjang desktop hp](screenshot/keranjang.jpeg) |
+| ![Pembayaran sukses laptop](screenshot/pembayaran%20sukses.png) | ![Keranjang desktop laptop](screenshot/keranjang.png) |
 
-| Paket 1 | Paket 2
-| ![paket bundling 1 hp](screenshot/paket bundling.jpeg) | ![Paket bunling 2 hp](screenshot/paket bundling 2.jpeg) |
-| ![Paket bundling 1 laptop](screenshot/paket bundling.png) | ![Paket bundling 2 laptop](screenshot/paket bundling 2.png)
+| Paket 1 | Paket 2 |
+| --- | --- |
+| ![Paket bundling 1 hp](screenshot/paket%20bundling.jpeg) | ![Paket bundling 2 hp](screenshot/paket%20bundling%202.jpeg) |
+| ![Paket bundling 1 laptop](screenshot/paket%20bundling.png) | ![Paket bundling 2 laptop](screenshot/paket%20bundling%202.png) |
 
 ## Kontak bisnis
 
