@@ -2,71 +2,71 @@ const $ = (selector) => document.querySelector(selector);
 const products = [
   {
     name: "Dus Ka'bah Paket Hemat",
-    price: "Rp 150.000",
+    price: "Rp 6.266",
     image: "images/DUS KA'BAH PAKET HEMAT.jpeg",
     isDus: true,
     variants: [
       {
         name: "Dus Ka'bah + Candini",
-        price: "Rp 135.000",
+        price: "Rp 11.557",
         image: "images/DUS KA'BAH + CANDINI.jpeg",
       },
       {
         name: "Dus Ka'bah + Coklat",
-        price: "Rp 140.000",
+        price: "Rp 8.477",
         image: "images/DUS KA'BAH + COKLAT.jpeg",
       },
       {
         name: "Dus Ka'bah + Pistachio",
-        price: "Rp 165.000",
+        price: "Rp 8.526",
         image: "images/DUS KA'BAH + PISTACHIO.jpeg",
       },
       {
         name: "Dus Ka'bah Paket Hemat",
-        price: "Rp 150.000",
+        price: "Rp 6.266",
         image: "images/DUS KA'BAH PAKET HEMAT.jpeg",
       },
     ],
   },
   {
     name: "Dus Kotak Hemat",
-    price: "Rp 135.000",
+    price: "Rp 6.266",
     image: "images/DUS KOTAK HEMAT.jpeg",
     isDus: true,
     variants: [
       {
         name: "Dus Kotak + Almond",
-        price: "Rp 120.000",
+        price: "Rp 8.246",
         image: "images/DUS KOTAK + ALMOND.jpeg",
       },
       {
         name: "Dus Kotak + Coklat",
-        price: "Rp 125.000",
+        price: "Rp 8.477",
         image: "images/DUS KOTAK + COKLAT.jpeg",
       },
       {
         name: "Dus Kotak + Pistachio",
-        price: "Rp 150.000",
+        price: "Rp 8.526",
         image: "images/DUS KOTAK + PISTACHIO.jpeg",
       },
       {
         name: "Dus Kotak Hemat",
-        price: "Rp 135.000",
+        price: "Rp 6.266",
         image: "images/DUS KOTAK HEMAT.jpeg",
       },
     ],
   },
-  { name: "Air ZamZam", price: "Rp 350.000", image: "images/ZAM ZAM.jpeg" },
-  { name: "Kurma", price: "Rp 60.000", image: "images/KURMA.jpeg" },
-  { name: "Pistachio", price: "Rp 370.000", image: "images/PISTACHIO.jpeg" },
-  { name: "Kismis", price: "Rp 110.000", image: "images/KISMIS.jpeg" },
+  { name: "Air ZamZam /5L", price: "Rp 350.000", image: "images/ZAM ZAM.jpeg" },
+  { name: "Kurma /1Kg", price: "Rp 68.600", image: "images/KURMA.jpeg" },
+  { name: "Pistachio /1Kg", price: "Rp 462.000", image: "images/PISTACHIO.jpeg" },
+  { name: "Kismis /1Kg", price: "Rp 101.500", image: "images/KISMIS.jpeg" },
   {
-    name: "Coklat Kerikil",
-    price: "Rp 95.000",
+    name: "Coklat Kerikil /1Kg",
+    price: "Rp 102.200",
     image: "images/COKLAT KERIKIL.jpeg",
   },
-  { name: "Kacang Arab", price: "Rp 45.000", image: "images/KACANG ARAB.jpeg" },
-  { name: "Almond", price: "Rp 70.000", image: "images/ALMOND.jpeg" },
+  { name: "Kacang Arab /1Kg", price: "Rp 37.800", image: "images/KACANG ARAB.jpeg" },
+  { name: "Almond /1Kg", price: "Rp 175.000", image: "images/ALMOND.jpeg" },
 ];
 const getCart = () =>
   JSON.parse(localStorage.getItem("arabianSnackCart")) || products[0];
