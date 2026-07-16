@@ -144,7 +144,11 @@ Dokumentasi tampilandikelompokkan berdasarkan perangkat dan jenis akses.
 
 | Tampilan awal | Tampilan awal |
 | --- | --- |
-| ![Tampilan awal - desktop](screenshot/screenshot/Tampilan%20awal%20-%20desktop.png) | ![Tampilan awal - hp](screenshot/screenshot/Tampilan%20awal%20-%20mobile.jpg) |  |
+| ![Tampilan awal - desktop](screenshot/screenshot/Tampilan%20awal%20-%20desktop.png) | |
+
+| Tampilan awal |
+| --- | --- |
+| ![Tampilan awal - hp](screenshot/screenshot/Tampilan%20awal%20-%20mobile%20.jpg) |  |
 
 | Beranda | Katalog Produk |
 | --- | --- |
