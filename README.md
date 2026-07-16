@@ -7,7 +7,7 @@
 - Mata kuliah: E-Commerce / Pengembangan Web
 - Judul proyek: **Membangun Website E-Commerce Fungsional dengan Integrasi Strategi Bisnis Modern**
 - Nama bisnis: **Arabian Snack**
-- Repository GitHub: **[isi tautan repository]**
+- Repository GitHub: **[https://github.com/migyullya-code/Arabian-Snack]**
 - GitHub Pages: **[ https://migyullya-code.github.io/Arabian-Snack/]**
 
 Arabian Snack adalah toko online yang menawarkan kurma, kacang-kacangan, coklat kerikil, air ZamZam, serta paket oleh-oleh bertema haji/umrah. Website ini dirancang untuk memberikan pengalaman belanja yang sederhana, jelas, dan nyaman di perangkat desktop maupun seluler.
