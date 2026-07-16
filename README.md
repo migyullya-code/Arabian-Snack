@@ -142,6 +142,10 @@ Dokumentasi tampilandikelompokkan berdasarkan perangkat dan jenis akses.
 
 ## Dokumentasi Tampilan
 
+| Tampilan awal | Tampilan awal |
+| --- | --- |
+| ![Tampilan awal - desktop](screenshot/screenshot/Tampilan%20awal%20-%20desktop.png) | ![Tampilan awal - hp](screenshot/screenshot/Tampilan%20awal%20-%20mobile.jpg) |  |
+
 | Beranda | Katalog Produk |
 | --- | --- |
 | ![Beranda desktop hp](screenshot/beranda%20.jpeg) | ![Katalog desktop hp](screenshot/katalog.jpeg) |
